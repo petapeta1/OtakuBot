@@ -20,7 +20,7 @@ exports.conf = {
     };
      
 exports.help = {
-  name: 'moe',
+  name: '-moe',
   description: 'Sends a random awwnime image',
   usage: 'moe'
 };

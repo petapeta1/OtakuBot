@@ -14,7 +14,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'smack',
+  name: '-smack',
   description: 'Smacks a user.',
   usage: 'smack <user>'
 };

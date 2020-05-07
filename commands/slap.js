@@ -24,7 +24,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'slap',
+    name: '-slap',
     description: 'Slaps someone OwO',
     usage: 'slap'
   };

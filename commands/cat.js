@@ -23,7 +23,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'cat',
+    name: '-cat',
     description: 'Sends a random cat',
     usage: 'cat'
   };

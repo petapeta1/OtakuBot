@@ -23,7 +23,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'neko',
+    name: '-neko',
     description: 'Sends a random Neko OwO',
     usage: 'neko'
   };

@@ -24,7 +24,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'spank',
+    name: '-spank',
     description: 'Spanks someone xD',
     usage: 'spank'
   };

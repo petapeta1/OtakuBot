@@ -21,7 +21,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'smug',
+    name: '-smug',
     description: 'Smugs xD',
     usage: 'smug'
   };

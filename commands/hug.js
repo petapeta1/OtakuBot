@@ -23,7 +23,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'hug',
+    name: '-hug',
     description: 'Hugs someone OwO',
     usage: 'hug'
   };

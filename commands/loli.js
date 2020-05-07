@@ -21,7 +21,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'loli',
+    name: '-loli',
     description: 'random loli OwO',
     usage: 'loli'
   };

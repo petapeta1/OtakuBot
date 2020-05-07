@@ -22,7 +22,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'kitsune',
+    name: '-kitsune',
     description: 'Kitsunes OwO',
     usage: 'kitsune'
   };

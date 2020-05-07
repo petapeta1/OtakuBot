@@ -19,7 +19,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'uptime',
+  name: '-uptime',
   description: 'Shows how long the bot has been online for.',
   usage: 'uptime'
 };

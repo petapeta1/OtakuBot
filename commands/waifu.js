@@ -21,7 +21,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'waifu',
+    name: '-waifu',
     description: 'random waifu OwO',
     usage: 'waifu'
   };

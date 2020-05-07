@@ -24,7 +24,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'pat',
+    name: '-pat',
     description: 'Pats someone OwO',
     usage: 'pat'
   };

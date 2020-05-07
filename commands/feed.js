@@ -23,7 +23,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'feed',
+    name: '-feed',
     description: 'Feeds someone OwO',
     usage: 'feed'
   };

@@ -21,7 +21,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'wallpaper',
+    name: '-wallpaper',
     description: 'Anime wallpapers OwO',
     usage: 'wallpaper'
   };

@@ -21,7 +21,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'nep',
+  name: '-nep',
   description: 'Sends a random nep gif or image.',
   usage: 'nep'
 };

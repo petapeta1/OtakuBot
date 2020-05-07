@@ -18,7 +18,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'truth',
+    name: '-truth',
     description: 'Sends a scroll truth',
     usage: 'truth (truth)'
   };

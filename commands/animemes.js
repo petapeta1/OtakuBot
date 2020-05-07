@@ -20,7 +20,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'animemes',
+    name: '-animemes',
     description: 'Sends a random post from r/animemes',
     usage: 'animemes'
   };

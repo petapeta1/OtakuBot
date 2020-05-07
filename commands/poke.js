@@ -25,7 +25,7 @@ exports.conf = {
   };
   
   exports.help = {
-    name: 'poke',
+    name: '-poke',
     description: 'Pokes someone OwO',
     usage: 'poke'
   };

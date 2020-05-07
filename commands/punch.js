@@ -1,5 +1,5 @@
 exports.run = (client, message) => {
-  var owner = "242263403001937920"
+  var owner = "585444548956913677"
   let user = message.mentions.users.first();
   if (message.mentions.users.size < 1) return message.reply('You must mention someone to punch them.')
         if(user.id === owner){
@@ -17,7 +17,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'punch',
+  name: '-punch',
   description: 'Punches a user.',
   usage: 'punch <user>'
 };

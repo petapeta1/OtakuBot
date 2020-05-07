@@ -1,11 +1,19 @@
-const settings = require('../settings.json');
+const settings = require("../settings.json");
 exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
-  let reason = args.slice(0).join(' ');
-  if (reason.length < 1) return message.reply('You can\'t throw a hammer at thin air, pick someone fool.');
-  if(message.mentions.users.first().id === "242263403001937920") return message.reply('You can\'t hurt him you pleblord.:facepalm:')
-  message.channel.send(`${message.author.username} threw a hammer at ${message.mentions.users.first().username}. :hammer:`)
-  }
+  let reason = args.slice(0).join(" ");
+  if (reason.length < 1)
+    return message.reply(
+      "You can't throw a hammer at thin air, pick someone fool."
+    );
+  if (message.mentions.users.first().id === "585444548956913677")
+    return message.reply("You can't hurt him you pleblord.:facepalm:");
+  message.channel.send(
+    `${message.author.username} threw a hammer at ${
+      message.mentions.users.first().username
+    }. :hammer:`
+  );
+};
 
 exports.conf = {
   enabled: true,
@@ -15,7 +23,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'hammer',
-  description: 'Gives you a hammer to throw at a pleb.',
-  usage: 'hammer'
+  name: "-hammer",
+  description: "Gives you a hammer to throw at a pleb.",
+  usage: "hammer"
 };
